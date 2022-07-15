@@ -1,9 +1,24 @@
+:root {
+	--main-bg-color: #f1f5f8;
+	--ff-primary: "Roboto", sans-serif;
+	--title-clr: #102a42;
+	--primery-blue: #49a6e9;
+	--card-bg: #ffffff;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: var(--main-bg-color);
 }
 
 a {
@@ -14,3 +29,23 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.carousel-status{
+  display: none;
+}
+
+@media screen and (max-width:750px){
+  .thumbs button{
+    display: none;
+  }
+ 
+  .thumbs-wrapper{
+    display: none;
+  }
+  .control-dots{
+    display: none;
+  }
+}
+
+
+

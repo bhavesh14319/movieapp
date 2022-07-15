@@ -1,0 +1,39 @@
+.ul li{
+   font-size: 1.2rem;
+}
+
+.logo{
+   width: 200px;
+   border-radius: 20px;
+}
+
+.searchBox{
+   position: relative;
+   right: 50px;
+   width: 24vw;
+   padding: 5px;
+}
+
+.fa{
+    color: white;
+    position: relative;
+    right: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px) {
+   .searchBox{
+      margin-left: 50px;
+      width:70vw;
+   }
+
+   .ul{
+      flex-direction: row;
+   }
+
+   .ul li {
+      padding: 10px;
+      font-size: 1rem;
+   }
+}

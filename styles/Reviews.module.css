@@ -1,0 +1,52 @@
+.container {
+	display: flex;
+    width: 90vw;
+    padding: 20px;
+    flex-wrap: wrap;
+    background: #E7E7E7;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+.imgContainer {
+	width: 50px;
+	height: 50px;
+    margin-right: 20px;
+}
+
+.reviewImage {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 5px -5px rgba(0,0,0,0.5);
+}
+
+
+.reviewName {
+	font-family: var(--ff-primary);
+	text-transform: capitalize;
+	letter-spacing: 0.1em;
+	font-size: 1em;
+	color: var(--title-clr);
+	margin-bottom: 1em;
+    margin-top: 0.8rem;
+}
+
+
+.reviewText {
+	font-weight: 500;
+	font-size: 0.8em;
+	font-style: italic;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+    text-align: left;
+    text-overflow: hidden;
+}
+
+@media screen and (min-width:750px){
+	.reviewText{
+		font-size: 1rem;
+	}
+}

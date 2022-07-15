@@ -1,0 +1,161 @@
+
+.detailsContainer{
+    background: #C9CED3;
+    padding: 20px;
+    padding-top: 100px;
+    
+}
+
+.basicInfoContainer{
+    display: flex;
+}
+
+
+
+.poster{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px 5px rgba(0,0,0,0.5);
+    max-height: 700px;
+    max-width: 700px;
+}
+
+.title h1 {
+	font-family: var(--ff-primary);
+	color: var(--title-clr);
+	margin-top: 20px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+
+.reviewsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .basicInfoContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgContainer{
+        display: flex;
+        justify-content: center;
+    }
+    .poster{
+        width: 75vw;
+        margin: 0;
+    }
+    .basicInfo{
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+    }
+    .language{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .title{
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .description{
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+}
+
+@media  screen and (min-width:500px){
+    .imgContainer{
+        margin-right: 10px ;
+        align-items: center;
+        justify-content: center;
+    }
+    .poster{
+        width: 40vw;
+        margin-top: 15px;
+    } 
+
+    .info{
+        padding: 10px;
+    }
+
+    .basicInfo{
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+    }
+
+    .language{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .title{
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .description{
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+}
+
+@media screen and (min-width:900px) {
+
+    .imgContainer{
+        margin-right: 10px ;
+        align-items: center;
+        justify-content: center;
+    }
+    .poster{
+        width: 40vw;
+        margin-top: 15px;
+        margin-left: 30px;
+    } 
+
+    .info{
+        padding: 20px;
+    }
+
+    .basicInfo{
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .language{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+    .title{
+        font-size: 2rem;
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .description{
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    
+}
