@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import MovieInfo from '../Components/MovieInfo'
 import Searchedmovies from '../Components/Searchedmovies'
 
-function movieDetails() {
+function MovieDetails() {
 
   let bool = true;
 
@@ -35,4 +35,6 @@ function movieDetails() {
   
 }
 
-export default movieDetails
+
+
+export default MovieDetails
